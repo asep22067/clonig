@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Pacifico&display=swap");
+
+@media (max-width: 460px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-color: black;
+    height: 200vh;
+  }
+
+  #navbaratas {
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 30px;
+  }
+
+  #wadahnm {
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .notif,
+  .message {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .navbaratas {
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+  }
+
+  /* AKHIR STYLE NAVBAR ATAS */
+
+  /* AWAL STYLE NAVBAR BAWAH */
+  #navbarbawah {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .icon:hover {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  .icon:active {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+  }
+  .fotoicon {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  /* AKHIR STYLE NAVBAR BAWAH */
+
+  /* STYLE STORY */
+  #tombolplus {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    right: -55px;
+    top: 57px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .plus {
+    height: 25px;
+    width: 25;
+  }
+
+  .wadahstory {
+    margin-top: 20px;
+    overflow-x: auto;
+    height: 150px;
+    width: 100%;
+  }
+
+  .isistory {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+  }
+
+  .wadahfotodanteks {
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+  }
+
+  .bg1story {
+    background-image: linear-gradient(to right, #ffc100, red, purple);
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg2story {
+    background-color: black;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fotostory {
+    background-color: white;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+
+  .fotostorysaya {
+    background-color: white;
+    border-radius: 50%;
+    margin: 7px 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .teks {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+  }
+
+  /*   AKHIR STYLE STORY */
+
+  /* AWAL STYLE POSTINGAM */
+  .wadahtekspostingan {
+    height: 59px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .tekspostingan {
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .close {
+    height: 25px;
+    width: 25px;
+    color: white;
+  }
+
+  #wadahidentitas {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .wadahppdannama {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+  .pp {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  .namapp {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .wadahikutidant3 {
+    display: flex;
+    padding: 0 10px;
+  }
+  .ikuti {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  .ikuti:hover {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .ikuti:active {
+    cursor: pointer;
+    height: 32px;
+    width: 52px;
+    background-color: cyan;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+  }
+  .teksikuti {
+    color: black;
+    font-weight: bold;
+  }
+  .wadaht3 {
+    height: 100%;
+    width: 15px;
+    cursor: pointer;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: center;
+  }
+  .t3 {
+    font-weight: bold;
+    color: white;
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 4px;
+  }
+  .wadahpostingan {
+    height: 50vh;
+    width: 100%;
+    background-image: url("asu.webp");
+    background-size: cover;
+  }
+  #wadahall {
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wadahlikecomentshare {
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .iconl {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+  }
+  .iconl:active {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    margin-left: 9px;
+  }
+  #wadahjumlahlikecoment {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .jumlahlike {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .jumlahcoment {
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .tanggalpostingan {
+    margin-top: 2px;
+    font-size: 11px;
+    color: grey;
+  }
+  /* AKHIR STYLE POSTINGAM */
+}
